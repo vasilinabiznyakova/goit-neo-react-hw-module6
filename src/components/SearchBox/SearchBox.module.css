@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.label {
+  margin: 0 0 4px;
+  font-size: 20px;
+  color: var(--text);
+}
+
+.input {
+  box-sizing: border-box;
+  width: min(100%, 400px);
+  padding: 8px 12px;
+  font-size: 16px;
+  color: var(--text);
+  background-color: #fff;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.input:focus {
+  outline: 2px solid rgba(37, 99, 235, 0.25);
+  border-color: var(--accent);
+}
